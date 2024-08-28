@@ -16,7 +16,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 
 ## 📚 Projects
 
-### 1. [Project Name]
+### 1. Portfolio Website
 - **Description:** I have created a simple portfolio website.
 - **Features:** The portfolio website has two pages. Home and Contact Page.
 - **Technologies Used:** HTML, basic CSS.
