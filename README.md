@@ -22,6 +22,12 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Technologies Used:** HTML, basic CSS.
 - **Live Demo:** 
 
+### 2. Reestar Website
+- **Description:** I have created a Reestar website.
+- **Features:** It's a single page website.
+- **Technologies Used:** HTML, basic CSS.
+- **Live Demo:** 
+
 ## 🎯 Goals
 
 - **Short-Term:** Complete my MERN stack course at EMC Academy and build a portfolio of full-stack projects.
