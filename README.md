@@ -20,12 +20,18 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Description:** I have created a simple portfolio website.
 - **Features:** The portfolio website has two pages. Home and Contact Page.
 - **Technologies Used:** HTML, basic CSS.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/Portfolio%20website/index.html
 
 ### 2. Reestar Website
 - **Description:** I have created a Reestar website.
 - **Features:** It's a single page website.
 - **Technologies Used:** HTML, basic CSS.
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/Reestar/index.html
+
+### 3. Udemy Clone
+- **Description:** I have created a Udemy Clone website.
+- **Features:** Looks similar to the Udemy website.
+- **Technologies Used:** HTML, CSS and CSS Flexbox.
 - **Live Demo:** 
 
 ## 🎯 Goals
