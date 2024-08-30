@@ -20,31 +20,31 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Description:** I have created a simple portfolio website.
 - **Features:** The portfolio website has two pages. Home and Contact Page.
 - **Technologies Used:** HTML, CSS.
-- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/Portfolio%20website/index.html
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/1.%20Portfolio%20website/index.html
 
 ### 2. Reestar Website
 - **Description:** I have created a Reestar website.
 - **Features:** It's a single page website.
 - **Technologies Used:** HTML, CSS.
-- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/Reestar/index.html
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/2.%20Reestar/index.html
 
 ### 3. Image Gallery
 - **Description:** I have created an Image Gallery.
 - **Features:** It's a responsive web design.
 - **Technologies Used:** HTML, CSS Flexbox.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/3.%20Image%20Gallery/index.html
 
 ### 4. Subscription Page
 - **Description:** I have created a subscription page.
 - **Features:** It's a responsive web design.
 - **Technologies Used:** HTML, CSS Flexbox.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/4.%20Subscription%20page/index.html
 
 ### 5. Udemy Clone
 - **Description:** I have created a Udemy Clone website.
 - **Features:** Looks similar to the Udemy website.
 - **Technologies Used:** HTML, CSS and CSS Flexbox.
-- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/Udemy%20clone/index.html
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/5.%20Udemy%20clone/index.html
 
 ## 🎯 Goals
 
