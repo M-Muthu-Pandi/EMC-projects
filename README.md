@@ -43,7 +43,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 ### 5. Udemy Clone
 - **Description:** I have created a Udemy Clone website.
 - **Features:** Looks similar to the Udemy website.
-- **Technologies Used:** HTML, CSS and CSS Flexbox.
+- **Technologies Used:** HTML, CSS (Flexbox, Positions, Animations & Media queries).
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/5.%20Udemy%20clone/index.html
 
 ## 🎯 Goals
