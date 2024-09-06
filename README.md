@@ -51,6 +51,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Features:** Looks similar to the Trio Advisor website.
 - **Technologies Used:** HTML, Advanced CSS.
 - **Live Demo:** 
+
 ## 🎯 Goals
 
 - **Short-Term:** Complete my MERN stack course at EMC Academy and build a portfolio of full-stack projects.
