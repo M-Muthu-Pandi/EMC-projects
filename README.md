@@ -50,7 +50,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Description:** I have created a Trip Advisor Clone website.
 - **Features:** Looks similar to the Trio Advisor website.
 - **Technologies Used:** HTML, Advanced CSS.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/6.%20Trip%20Advisor%20clone/index.html
 
 ## 🎯 Goals
 
