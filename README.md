@@ -46,6 +46,11 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Technologies Used:** HTML, CSS (Flexbox, Positions, Animations & Media queries).
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/5.%20Udemy%20clone/index.html
 
+### 6. Trip Advisor Clone
+- **Description:** I have created a Trip Advisor Clone website.
+- **Features:** Looks similar to the Trio Advisor website.
+- **Technologies Used:** HTML, Advanced CSS.
+- **Live Demo:** 
 ## 🎯 Goals
 
 - **Short-Term:** Complete my MERN stack course at EMC Academy and build a portfolio of full-stack projects.
