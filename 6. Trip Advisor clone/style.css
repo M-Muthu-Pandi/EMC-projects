@@ -116,6 +116,7 @@ body {
     cursor: pointer;
     padding-bottom: 10px;
     border-bottom: 2px solid transparent;
+    margin: 0 10px;
 }
 
 .menu__list li:hover {
@@ -832,8 +833,12 @@ body {
         border-bottom: 1px solid rgb(0, 0, 0, 0.5);
     }
 
+    .home {
+        background-image: none;
+    }
+
     .home__content {
-        width: 300px;
+        width: 90%;
         text-align: center;
         padding: 20px 0 20px 20px;
     }
