@@ -16,23 +16,27 @@
 
 <body>
     <!-- Navbar -->
-    <div class="navbar">
-        <div class="navbar__s1">
-            <img src="Images/Tripadvisor_logo.svg" alt="Trip Advisor Logo">
-        </div>
-        <ul class="navbar__s2">
-            <li>Discover</li>
-            <li>Trips</li>
-            <li>Review</li>
-            <p>Forums</p>
-        </ul>
-        <div class="navbar__s3">
-            <button class="navbar__s3__btn1"><i class="fa-solid fa-globe"></i> <span>|</span> INR</button>
-            <button class="navbar__s3__btn2">Sign in</button>
+    <div class="container">
+        <div class="navbar">
+            <img src="Images/list.png" alt="Nav Icon">
+            <div class="navbar__s1">
+                <img src="Images/Tripadvisor_logo.svg" alt="Trip Advisor Logo">
+            </div>
+            <ul class="navbar__s2">
+                <li>Discover</li>
+                <li>Trips</li>
+                <li>Review</li>
+                <p>Forums</p>
+            </ul>
+            <div class="navbar__s3">
+                <button class="navbar__s3__btn1"><i class="fa-solid fa-globe"></i> <span>|</span> INR</button>
+                <button class="navbar__s3__btn2">Sign in</button>
+            </div>
+            <img src="Images/user.png" alt="Profile">
         </div>
     </div>
-    <div class="container">
 
+    <div class="containe-width">
         <!-- Menu -->
         <div class="menu">
             <h2>Where to?</h2>
@@ -46,8 +50,10 @@
                 <li><img src="Images/home.png" alt="Search All"> Holiday Homes</li>
             </ul>
             <div class="menu__search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" placeholder="Places to go, things to do, hotels ...">
+                <div class="menu__search__input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Places to go, things to do, hotels ...">
+                </div>
                 <button>Search</button>
             </div>
         </div>
@@ -200,7 +206,7 @@
 
     <!-- Categories 4 -->
     <div class="categories-4">
-        <div class="container">
+        <div class="container-width">
             <p class="categories__title">More to explore</p>
             <div class="categories__card">
                 <div class="categories__card__image">
@@ -223,7 +229,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-width">
         <!-- Categories 5 -->
         <div class="categories">
             <p class="categories__title">Top destinations for your next holiday</p>
@@ -261,6 +267,12 @@
 
         <!-- Sponsered -->
         <div class="sponsered">
+            <div class="desc__2">
+                <div class="sponsered__desc__2">
+                    <img src="Images/tripadvisor-logo.png" alt="Logo">
+                    <p>Sponsored by <a href="#">Wanderlab</a></p>
+                </div>
+            </div>
             <img src="Images/bike_race.jpg" alt="Bike race Image">
             <div class="sponsered__desc">
                 <div class="sponsered__desc__1">
@@ -276,25 +288,30 @@
         <!-- Categories 6 -->
         <div class="categories">
             <h2 class="categories-6__title">Home Rentals Near You</h2>
-            <div class="categories__card">
-                <div class="categories__card__img-1">
-                    <p class="categories__card__content">We think you'd enjoy these homes for a quick trip out of town.
-                    </p>
+            <div class="categories__desc-img">
+                <div class="categories__card">
+                    <div class="categories__card__img-1">
+                        <p class="categories__card__content">We think you'd enjoy these homes for a quick trip out of
+                            town.
+                        </p>
+                    </div>
                 </div>
-                <div class="categories__card__img-1">
-                    <img src="Images/Yelagiri.jpg" alt="Tour Images">
-                    <p class="categories__card__desc">Rentals in Yelagiri</p>
-                    <p>12 rentals</p>
-                </div>
-                <div class="categories__card__img-1">
-                    <img src="Images/Pondicherry.jpg" alt="Tour Images">
-                    <p class="categories__card__desc">Rentals in Pondicherry</p>
-                    <p>53 rentals</p>
-                </div>
-                <div class="categories__card__img-1">
-                    <img src="Images/Mahabalipuram.jpg" alt="Tour Images">
-                    <p class="categories__card__desc">Rentals in Mahabalipuram</p>
-                    <p>13 rentals</p>
+                <div class="categories__card">
+                    <div class="categories__card__img-1">
+                        <img src="Images/Yelagiri.jpg" alt="Tour Images">
+                        <p class="categories__card__desc">Rentals in Yelagiri</p>
+                        <p>12 rentals</p>
+                    </div>
+                    <div class="categories__card__img-1">
+                        <img src="Images/Pondicherry.jpg" alt="Tour Images">
+                        <p class="categories__card__desc">Rentals in Pondicherry</p>
+                        <p>53 rentals</p>
+                    </div>
+                    <div class="categories__card__img-1">
+                        <img src="Images/Mahabalipuram.jpg" alt="Tour Images">
+                        <p class="categories__card__desc">Rentals in Mahabalipuram</p>
+                        <p>13 rentals</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -305,7 +322,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <div class="container footer__desc">
+        <div class="container-width footer__desc">
             <div>
                 <div class="footer__content__1">
                     <div class="content__one">
@@ -380,6 +397,7 @@
                     <p>Tripadvisor Sites</p>
                     <ul>
                         <li>Book tours and attraction tickets on Viator</li>
+                    </ul>
                 </div>
                 <div class="content-two">
                     <div>
@@ -407,6 +425,62 @@
         </div>
     </div>
 
+    <div class="footer-2">
+        <div class="footer-2__desc">
+            <div class="footer-2__content">
+                <p><i class="fa-solid fa-plus"></i> About Tripadvisor</p>
+                <p><i class="fa-solid fa-plus"></i> Explore</p>
+                <p><i class="fa-solid fa-plus"></i> Do Business With Us</p>
+                <p><i class="fa-solid fa-plus"></i> Get The App</p>
+                <p><i class="fa-solid fa-plus"></i> Tripadvisor Sites</p>
+            </div>
+            <div class="content-three">
+                <div>
+                    <select name="currency">
+                        <option value="₹-INR">₹ INR</option>
+                        <option value="$-USD">$ USD</option>
+                        <option value="£-GBP">£ GBP</option>
+                        <option value="€-EUR">€ EUR</option>
+                    </select>
+                    <select name="country">
+                        <option value="india">India</option>
+                        <option value="united-states">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="brazil">Brazil</option>
+                    </select>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content__2">
+            <div class="content__2">
+                <img src="Images/tripadvisor-logo.png" alt="Logo">
+                <div>
+                    <p class="content__2__desc">&nbsp; &copy; 2024 Tripadvisor LLC All rights reserved.
+                    </p>
+                    <p><a href="#">Terms of Use</a>
+                        <a href="#">Privacy and Cookies Statement</a>
+                        <a href="#">Cookie consent</a>
+                        <a href="#">Site Map</a>
+                        <a href="#">How the site works
+                        </a>
+                        <a href="#">Contact us</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <p class="content__2__desc">This is the version of our website addressed to speakers of English
+                    in India. If you are
+                    a resident of another country or region, please select the appropriate version of
+                    Tripadvisor for your country or region in the drop-down menu. more</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
