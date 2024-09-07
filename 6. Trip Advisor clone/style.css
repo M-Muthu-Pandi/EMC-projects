@@ -142,6 +142,7 @@ body {
 .menu__search__input {
     gap: 10px;
     display: flex;
+    width: 100%;
 }
 
 .menu__search i {
@@ -149,7 +150,7 @@ body {
     cursor: pointer;
 }
 
-.menu__search input {
+.menu__search__input input {
     border: none;
     width: 100%;
     font-size: 16px;
@@ -829,7 +830,7 @@ body {
     }
 
     .menu__search__input {
-        padding: 10px;
+        padding: 10px 0;
         border-bottom: 1px solid rgb(0, 0, 0, 0.5);
     }
 
