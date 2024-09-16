@@ -60,7 +60,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 
 ### 8. Guess the Number
 - **Description:** I have created a Guess the Number Game.
-- **Features:** This website has a JavaScript DOM manipulation, Eventhandler, functions and etc...
+- **Features:** This website has JavaScript DOM manipulation, Eventhandler, functions and etc...
 - **Technologies Used:** HTML,CSS and JavaScript.
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/8.%20Guess%20the%20Number%20Game/index.html
 
