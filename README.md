@@ -56,13 +56,13 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Description:** I have created a Greenden website.
 - **Features:** This website is a responsive website. Using one of the CSS framework.
 - **Technologies Used:** HTML, Tailwind CSS.
-- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/7.Greenden/index.html
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/7.%20Greenden/index.html
 
 ### 8. Guess the Number
 - **Description:** I have created a Guess the Number Game.
 - **Features:** This website has a JavaScript DOM manipulation, Eventhandler, functions and etc...
 - **Technologies Used:** HTML,CSS and JavaScript.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/8.%20Guess%20the%20Number%20Game/index.html
 
 ## 🎯 Goals
 
