@@ -54,8 +54,8 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 
 ### 7. Greenden
 - **Description:** I have created a Greenden website.
-- **Features:** This website is a responsive website. Using one of the CSS framework.
-- **Technologies Used:** HTML, Tailwind CSS.
+- **Features:** This website is a responsive website. Using one of the CSS framework.And It has JS search functionalities.
+- **Technologies Used:** HTML, Tailwind CSS and JavaScript.
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/7.%20Greenden/index.html
 
 ### 8. Guess the Number
