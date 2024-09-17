@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl font-semibold">GREENDEN</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -26,10 +26,28 @@
                 <a href="product.html" class="hover:text-black hover:underline">Products</a>
             </li>
             <li>
-                <a href="contact.html" class="hover:text-black underline hover:underline">Contact</a>
+                <a href="contact.html" class="hover:text-black underline">Contact</a>
             </li>
         </ul>
     </nav>
+
+    <!-- Side navbar -->
+    <section id="sideNav" class="bg-green-100 w-1/2 h-screen fixed z-20 top-0 -right-1/2 transition-all duration-1000">
+        <div class="text-right p-5">
+            <p id="closeNav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="gap-10 text-gray-600 md:hidden flex flex-col items-center">
+            <li>
+                <a href="index.html" class="hover:text-black hover:underline">Home</a>
+            </li>
+            <li>
+                <a href="product.html" class="hover:text-black hover:underline">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:text-black underline">Contact</a>
+            </li>
+        </ul>
+    </section>
 
     <!-- Contact page -->
     <section class="bg-white dark:bg-gray-900">
@@ -74,6 +92,8 @@
         <p>The Standard chunk of lorem ipsum used since the 1500s is reprodused below for those interest</p>
         <p>@ 2021 Greenday.com</p>
     </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
