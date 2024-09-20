@@ -64,6 +64,12 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Technologies Used:** HTML,CSS and JavaScript.
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/8.%20Guess%20the%20Number%20Game/index.html
 
+### 9. Nostra
+- **Description:** I have created a Nostra E-Commerce Website.
+- **Features:** This website has Home page, Product Page and Contact Page.
+- **Technologies Used:** HTML,CSS and JavaScript.
+- **Live Demo:** 
+
 ## 🎯 Goals
 
 - **Short-Term:** Complete my MERN stack course at EMC Academy and build a portfolio of full-stack projects.

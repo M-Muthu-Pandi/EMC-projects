@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Offer Alert */
+.offer-alert {
+    background-color: #1D232C;
+    color: #E2E1E1;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #1D232C;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 1vw 20px;
+    z-index: 3;
+}
+
+.navbar__items {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__items li {
+    list-style: none;
+}
+
+.navbar__items a {
+    text-decoration: none;
+    color: #1D232C;
+}
+
+.navbar__items a:hover {
+    text-decoration: underline;
+    color: #1D232C;
+}
+
+.navbar__menu {
+    display: none;
+}
+
+/* Side Navbar */
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: -60%;
+    width: 50%;
+    height: 100vh;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    transition-duration: 1s;
+    z-index: 10;
+    padding: 20px;
+}
+
+.side-navbar p {
+    text-align: right;
+}
+
+.side-navbar__items {
+    text-align: center;
+}
+
+.side-navbar__items li {
+    margin: 30px 0;
+    list-style: none;
+}
+
+.side-navbar__items a {
+    text-decoration: none;
+    color: #E2E1E1;
+}
+
+.side-navbar__items a:hover {
+    text-decoration: underline;
+    color: #E2E1E1;
+}
+
+/* container */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Slider*/
+.slider {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.slider-image-container {
+    display: flex;
+    transition: 2s;
+}
+
+.slider-image {
+    width: 100vw;
+}
+
+.slider-left {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.slider-right {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    z-index: 1;
+}
+
+.slider-left i {
+    font-size: 10vw;
+
+}
+
+.slider-right i {
+    font-size: 10vw;
+}
+
+.slider-content {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+
+.slider-content h1 {
+    font-size: 5vw;
+}
+
+.slider-content button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #1D232C;
+}
+
+/* Brands */
+.brand h2 {
+    margin-top: 5vw;
+}
+
+.brands {
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
+
+.brands-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.brands-icon {
+    width: 4vw;
+}
+
+/* Services */
+.servives-container-1 {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.servives-container-2 {
+    display: flex;
+    gap: 10px;
+    font-size: 1vw;
+}
+
+.servives-container-2 div {
+    border-radius: 5px;
+    background-color: #F2F4F7;
+    padding: 10px;
+}
+
+.servives-container-2 i {
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+/* New Arrival */
+.new-arrivals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.new-arrival-container {
+    position: relative;
+}
+
+.new-arrival-container img {
+    border-radius: 2%;
+    width: 20vw;
+}
+
+.overlay {
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    opacity: 0.6;
+}
+
+.new-arrivals button {
+    padding: 5% 10%;
+    font-size: 1.2vw;
+    color: #1D232C;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 18%;
+    z-index: 2;
+}
+
+#new-arrival,
+#most-wanted {
+    margin-top: 5vw;
+}
+
+/* Most Wanted */
+.most-wanted {
+    display: flex;
+    margin-top: 2vw;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.most-wanted-container {
+    position: relative;
+}
+
+.most-wanted img{
+    border-radius: 2%;
+    width: 20vw;
+}
+
+.sale-overlay{
+    position: absolute;
+    top:3px;
+    left: 3px;
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10%;
+}
+
+.like-button{
+    position: absolute;
+    width: 15%;
+    bottom: 12%;
+    right: 5%;
+    font-size: 3vw;
+}
+
+.heart-fill {
+    display: none;
+    color: red;
+}
+
+.most-wanted::-webkit-scrollbar {
+    appearance: none;
+}
+
+/* Limited Offer */
+.limited-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    padding: 20px;
+    font-size: 2vw;
+}
+
+.limited-offer img{
+    width: 100%;
+    height: 100%;
+}
+
+.limited-offer-text{
+    padding: 5%;
+}
+
+.limited-offer button{
+    padding: 2.5% 5%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #1D232C;
+    border-radius: 10px;
+    border: none;
+}
+
+/* News Letter */
+.news{
+    font-size: 2vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input{
+    padding: 11px;
+    width: 80vw;
+    border: solid #1D232C 3px;
+    margin: 20px 0;
+}
+
+.news input:focus{
+   outline: none;
+}
+
+.news button{
+    font-size: 1.8vw;
+    color: #E2E1E1;
+    background-color: #1D232C;
+    border-radius: 10px;
+    border: none;
+    padding:10px
+}
+
+/* Footer */
+.footer {
+    font-size: 2vw;
+    margin-top: 5vw;
+    padding: 40px;
+    background-color: #1D232C;
+    color: #E2E1E1;
+}
+
+.icon{
+    margin: 2vw;
+}
+
+/* Media Query */
+@media screen and (max-width:1100px) {
+    .navbar__items {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navbar__items {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar__menu {
+        display: block;
+    }
+
+    .navbar__items {
+        display: none;
+    }
+}
