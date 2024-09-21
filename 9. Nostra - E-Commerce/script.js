@@ -1,11 +1,3 @@
-// Offer Alert
-var offerAlert = document.querySelector(".offer-alert");
-var offerClose = document.getElementById("offer-close");
-
-offerClose.addEventListener("click", function () {
-    offerAlert.style.display = "none";
-});
-
 // Side navbar
 var sideNavMenu = document.getElementById("side-navbar__menu");
 var sideNavbar = document.querySelector(".side-navbar");
@@ -17,6 +9,15 @@ sideNavMenu.addEventListener("click", function () {
 sideNavClose.addEventListener("click", function () {
     sideNavbar.style.left = "-60%";
 });
+
+// Offer Alert
+var offerAlert = document.querySelector(".offer-alert");
+var offerClose = document.getElementById("offer-close");
+
+offerClose.addEventListener("click", function () {
+    offerAlert.style.display = "none";
+});
+
 
 // Slider
 var sliderleftbutton = document.getElementById("slider-left-button");
@@ -62,4 +63,3 @@ likeButtons.forEach(function (button) {
         emptyHeart.style.display = "block";
     });
 });
-

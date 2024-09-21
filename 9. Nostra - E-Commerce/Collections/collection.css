@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Offer Alert */
+.offer-alert {
+    background-color: #1D232C;
+    color: #E2E1E1;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #1D232C;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 1vw 20px;
+    z-index: 3;
+}
+
+.navbar__items {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__items li {
+    list-style: none;
+}
+
+.navbar__items a {
+    text-decoration: none;
+    color: #1D232C;
+}
+
+.navbar__items a:hover {
+    text-decoration: underline;
+    color: #1D232C;
+}
+
+.navbar__menu {
+    display: none;
+}
+
+/* Side Navbar */
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: -60%;
+    width: 50%;
+    height: 100vh;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    transition-duration: 1s;
+    z-index: 10;
+    padding: 20px;
+}
+
+.side-navbar p {
+    text-align: right;
+}
+
+.side-navbar__items {
+    text-align: center;
+}
+
+.side-navbar__items li {
+    margin: 30px 0;
+    list-style: none;
+}
+
+.side-navbar__items a {
+    text-decoration: none;
+    color: #E2E1E1;
+}
+
+.side-navbar__items a:hover {
+    text-decoration: underline;
+    color: #E2E1E1;
+}
+
+/* container */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Collections */
+.divide-section {
+    display: flex;
+}
+
+.filter-section {
+    flex-basis: 25%;
+    position: relative;
+    font-size: 2vw;
+}
+
+.product-section {
+    flex-basis: 75%;
+    position: relative;
+    padding: 10px;
+}
+
+.vertical-line {
+    border: none;
+    border-left: 3px solid #1D232C;
+    height: 100%;
+    margin: 0 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.filter-section-arrivals,
+.filter-section-occasion,
+.filter-section-colors {
+    margin-top: 3vw;
+    margin-bottom: 10px;
+}
+
+.navbar-search {
+    border: 1px solid #1D232C;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.navbar-search input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.products {
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1vw;
+    overflow-y: scroll;
+    height: 110vh;
+}
+
+.products div {
+    margin-top: 2vw;
+}
+
+.products img {
+    border-radius: 2%;
+    width: 20vw;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* News Letter */
+.news {
+    font-size: 2vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    border: solid #1D232C 3px;
+    margin: 20px 0;
+}
+
+.news button {
+    font-size: 1.8vw;
+    color: #E2E1E1;
+    background-color: #1D232C;
+    border-radius: 10px;
+    border: none;
+    padding: 10px
+}
+
+/* Footer */
+.footer {
+    font-size: 2vw;
+    margin-top: 5vw;
+    padding: 40px;
+    background-color: #1D232C;
+    color: #E2E1E1;
+}
+
+.icon {
+    margin: 2vw;
+}
+
+/* Media Query */
+@media screen and (max-width:1100px) {
+    .navbar__items {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navbar__items {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar__menu {
+        display: block;
+    }
+
+    .navbar__items {
+        display: none;
+    }
+}
