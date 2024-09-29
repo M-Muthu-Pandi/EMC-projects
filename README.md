@@ -66,7 +66,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 
 ### 9. Nostra
 - **Description:** I have created a Nostra E-Commerce Website.
-- **Features:** This website has Home page, Collections Page and Contact Page.
+- **Features:** This website has Home page, Collections Page and Contact Page. The website was created using Semantic Tags.
 - **Technologies Used:** HTML,CSS and JavaScript.
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/9.%20Nostra%20-%20E-Commerce/index.html
 
