@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FEFF9F;
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #D3EE98;
+
+}
+
+#activityButton {
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    background-color: #72BF78;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#joke {
+    margin:20px 0;
+    display: none;
+}
+
+#answer {
+    font-size: 20px;
+    display: none;
+}
+
+#btn {
+    padding: 5px 10px;
+    background-color: #72BF78;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: none;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 80%;
+    }
+}

@@ -70,6 +70,12 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Technologies Used:** HTML,CSS and JavaScript.
 - **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/9.%20Nostra%20-%20E-Commerce/index.html
 
+### 10. Random Jokes
+- **Description:** I have created a Random Jokes Web application.
+- **Features:** This website has JavaScript DOM manipulation, Eventhandler, functions, Fetch API and etc...
+- **Technologies Used:** HTML,CSS and JavaScript.
+- **Live Demo:** 
+
 ## 🎯 Goals
 
 - **Short-Term:** Complete my MERN stack course at EMC Academy and build a portfolio of full-stack projects.
