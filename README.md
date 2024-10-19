@@ -74,7 +74,7 @@ I'm a passionate front-end developer expanding my skill set to include full-stac
 - **Description:** I have created a Random Jokes Web application.
 - **Features:** This website has JavaScript DOM manipulation, Eventhandler, functions, Fetch API and etc...
 - **Technologies Used:** HTML,CSS and JavaScript.
-- **Live Demo:** 
+- **Live Demo:** https://m-muthu-pandi.github.io/EMC-projects/10.%20Random%20Jokes/index.html
 
 ## 🎯 Goals
 
